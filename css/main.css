@@ -28,7 +28,8 @@
 }
 
 .button-big {
-    padding: 5px 10px;
+    padding: 5px 20px;
+    text-align: center;
 }
 
 .blue {
@@ -40,15 +41,36 @@ h1 {
     font-size: 64px;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 .mb-20px {
     margin-bottom: 20px;
+}
+
+.mb-80px {
+    margin-bottom: 80px;
 }
 
 
 /* HEADER */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    background: #fff;
     padding: 20px 10px;
+    z-index: 1;
 }
+
+header img {
+    vertical-align: middle;
+}
+
 
 header ul {
     display: inline-block;
@@ -76,6 +98,8 @@ header div:last-child {
 /* Hero */
 .hero {
     background: #B4D0E7;
+    padding-top: 80px;
+    margin-bottom: 160px;
 }
 .hero-translate {
     position: relative;
@@ -107,4 +131,68 @@ header div:last-child {
 
 .hero-image img {
     width: 100%;
+}
+
+/* Plans Section */
+
+.plans .columns {
+    width: 100%;
+}
+
+.plans .cols {
+    float: left;
+    width: calc((100% - 8%) / 3);
+    border: 1px solid grey;
+}
+
+.plans .cols:nth-child(2) {
+    margin: 0 4%;
+}
+
+.plans .people {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.plans .info {
+    padding: 0 30px;
+}
+
+.plans .price {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plans .recurrence-price {
+    color: grey;
+}
+
+.plans .info ul{
+    margin-left: 30px;
+}
+
+.plans .info ul li{
+    margin-bottom: 10px;
+}
+
+
+.plans .info ul li:last-child {
+    margin-bottom: 30px;
+}
+
+.plans .info .buy-now {
+    margin: 30px 0;
+}
+.plans .info hr {
+    width: 25%;
+}
+
+.plans .info h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.fa-check {
+    color: #0560FB;
 }
