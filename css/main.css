@@ -3,6 +3,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* UILITIES */
+.container-small {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button-small {
+    padding: 5px 10px;
+}
+
+.blue {
+    background-color: #0560FB;
+    color: white;
+}
+
+
+/* HEADER */
+header {
+    padding: 20px 10px;
+}
+
+header ul {
+    display: inline-block;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header div:first-child {
+    float: left;
+}
+
+header div:last-child {
+    float: right;
+}
