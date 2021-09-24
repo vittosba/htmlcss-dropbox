@@ -27,9 +27,21 @@
     padding: 5px 10px;
 }
 
+.button-big {
+    padding: 5px 10px;
+}
+
 .blue {
     background-color: #0560FB;
     color: white;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
 }
 
 
@@ -58,4 +70,41 @@ header div:first-child {
 
 header div:last-child {
     float: right;
+}
+
+/* MAIN */
+/* Hero */
+.hero {
+    background: #B4D0E7;
+}
+.hero-translate {
+    position: relative;
+    top: 80px;
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.hero-text a {
+    text-decoration: none;
+}
+
+.hero-text .fa-arrow-down {
+    font-size: 32px;
+}
+
+.hero-image {
+    width: 65%;
+    float: right;
+}
+
+.hero-image img {
+    width: 100%;
 }
