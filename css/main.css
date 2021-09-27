@@ -25,11 +25,13 @@
 
 .button-small {
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .button-big {
     padding: 5px 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 .blue {
@@ -39,6 +41,7 @@
 
 .void {
     border: 1px solid black;
+    color: black;
 }
 
 h1 {
@@ -292,7 +295,7 @@ header div:last-child {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    fill: white;
+    filter: invert(1);
 }
 
 .clients .columns .cols:first-child .square:nth-child(1) {
@@ -356,6 +359,7 @@ header div:last-child {
     float: left;
     width: 25%;
     background: white;
+    color: black;
 }
 
 /* FAQ */
@@ -370,8 +374,48 @@ header div:last-child {
 .faq .question p {
     float: left;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .arrow-down {
     float: right;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+footer .cols {
+    width: 20%;
+    float: left;
+}
+
+footer .cols ul {
+    list-style: none;
+}
+
+footer .cols ul li {
+    margin-bottom: 10px;
+}
+
+footer .cols ul li:first-child {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer hr {
+    width: 10%;
+    color: grey;
+    margin-top: 50px;
+}
+
+footer .lingua {
+    margin-top: 40px;
+    color: grey;
 }
