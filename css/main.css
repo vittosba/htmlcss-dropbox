@@ -255,3 +255,105 @@ header div:last-child {
 .functionality .cols h4 {
     margin-bottom: 30px;
 }
+
+/* Clients Section */
+.clients-container {
+    width: 50%;
+}
+
+.clients-container .link {
+    margin: 30px 0;
+}
+
+.clients .columns {
+    width: 100%;
+}
+
+.clients .columns .cols {
+    width: 30%;
+    float: left;
+}
+
+.clients .columns .cols:nth-child(2) {
+    width: 40%;
+    padding: 50px 40px;
+}
+
+.clients .columns .cols .square {
+    width: 50%;
+    height: 15vw;
+    float: left;
+    background: red;
+}
+
+.clients .columns .cols .square img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    fill: white;
+}
+
+.clients .columns .cols:first-child .square:nth-child(1) {
+    background: #A2D39B;
+    border: 10px solid #D0E9CD;
+}
+
+.clients .columns .cols:first-child .square:nth-child(2) {
+    background: #62172B;
+}
+
+.clients .columns .cols:first-child .square:nth-child(3) {
+    background: #3994CF;
+}
+
+.clients .columns .cols:first-child .square:nth-child(4) {
+    background: #E93F33;
+}
+
+.clients .columns .cols:last-child .square:nth-child(1) {
+    background: #D6392E;
+}
+
+.clients .columns .cols:last-child .square:nth-child(2) {
+    background: #B4D0E7;
+}
+
+.clients .columns .cols:last-child .square:nth-child(3) {
+    background: #0D2481;
+}
+
+.clients .columns .cols:last-child .square:nth-child(4) {
+    background: #FCD833;
+}
+
+.clients .columns .cols:nth-child(2) img {
+    width: 25%;
+}
+
+.clients .columns .cols:nth-child(2) hr {
+    width: 10%;
+}
+
+.clients .columns .cols:nth-child(2) p:first-of-type {
+    margin-bottom: 50px;
+}
+
+.clients .bg-test {
+    background: #B4D0E7;
+    padding: 80px 0;
+}
+
+.clients .bg-test h2{
+    float: left;
+    width: 50%;
+    margin-right: 25%;
+    color: #62172B;
+}
+
+.clients .bg-test .button-big {
+    float: left;
+    width: 25%;
+    background: white;
+}
