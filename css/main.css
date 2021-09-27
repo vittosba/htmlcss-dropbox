@@ -229,3 +229,29 @@ header div:last-child {
     padding-left: 60px;
 }
 
+/* Functionality Section */
+.functionality h2 {
+    margin-bottom: 50px;
+}
+
+.functionality .columns {
+    width: 100%;
+}
+
+.functionality .cols {
+    float: left;
+    width: calc((100% - 10%) / 3);
+    margin-bottom: 80px;
+}
+
+.functionality .cols:nth-child(3n + 2) {
+    margin: 0 5%;
+}
+
+.functionality .cols img {
+    width: 100%;
+}
+
+.functionality .cols h4 {
+    margin-bottom: 30px;
+}
