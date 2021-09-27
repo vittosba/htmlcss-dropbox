@@ -37,6 +37,10 @@
     color: white;
 }
 
+.void {
+    border: 1px solid black;
+}
+
 h1 {
     font-size: 64px;
 }
@@ -143,6 +147,7 @@ header div:last-child {
     float: left;
     width: calc((100% - 8%) / 3);
     border: 1px solid grey;
+    margin-bottom: 40px;
 }
 
 .plans .cols:nth-child(2) {
@@ -196,3 +201,31 @@ header div:last-child {
 .fa-check {
     color: #0560FB;
 }
+
+.enterprise {
+    border: 1px solid grey;
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+}
+
+.title-enterprise {
+    float: left;
+}
+
+.button-enterprise {
+    float: right;
+}
+
+/* Partner Section*/
+.partner img {
+    width: 50%;
+    float: left;
+}
+
+.text-partner {
+    width: 50%;
+    float: right;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
