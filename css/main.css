@@ -357,3 +357,21 @@ header div:last-child {
     width: 25%;
     background: white;
 }
+
+/* FAQ */
+.faq h2 {
+    margin-bottom: 40px;
+}
+
+.faq .question {
+    padding: 20px 20px 20px 0;
+}
+
+.faq .question p {
+    float: left;
+    font-weight: 700;
+}
+
+.arrow-down {
+    float: right;
+}
