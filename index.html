@@ -15,20 +15,45 @@
     
     <!-- HEADER -->
     <header class="clearfix">
-        <div>
+        <div class="menu">
             <img src="./img/logo-small.png" alt="">
             <ul>
-                <li><a href="#">Perché Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e prezzi</a></li>
+                <li class="dropdown ptb-20px">
+                    <a href="#">Perché Dropbox</a>
+                    <div class="dropdown-menu">
+                        <div>Content</div>
+                        <div>content</div>
+                    </div>
+                </li>
+                <li class="dropdown ptb-20px">
+                    <a href="#">Funzioni</a>
+                    <div class="dropdown-menu">
+                        <div>Content</div>
+                        <div>content</div>
+                    </div>
+                </li>
+                <li class="dropdown ptb-20px">
+                    <a href="#">Piani e prezzi</a>
+                    <div class="dropdown-menu">
+                        content
+                    </div>
+                </li>
             </ul>
         </div>
-        <div>
+        <div class="menu">
             <ul>
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li><a class="button-small blue" href="#">Inizia</a></li>
+                <li class="dropdown ptb-20px">
+                    <a href="#">Supporto</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="#">Centro assistenza</a></li>
+                            <li><a href="#">Forum della community</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown ptb-20px"><a href="#">Contatta l'ufficio vendite</a></li>
+                <li class="dropdown ptb-20px"><a href="#">Accedi</a></li>
+                <li class="ptb-20px"><a class="button-small blue" href="#">Inizia</a></li>
             </ul>
         </div>
     </header>
@@ -45,7 +70,7 @@
                         <a class="button-small blue" href="#">Inizia la tua prova gratuita</a>
                     </div>
                     <p class="mb-20px">Annulla in qualsiasi momento</p>
-                    <i class="fas fa-arrow-down"></i>
+                    <a href="#plans"><i class="fas fa-arrow-down"></i></a>
                 </div>
                 <div class="hero-image">
                     <img src="./img/jumbo.png" alt="">
@@ -54,7 +79,7 @@
         </section>
 
         <!-- Plans Section -->
-        <section class="plans container-small">
+        <section id="plans" class="plans container-small">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
             <input type="radio" name="fatturazione" value="month" id="fatturazione-month">
             <label for="fatturazione-month">Fatturazione mensile</label>
