@@ -85,6 +85,7 @@ header {
 
 header img {
     vertical-align: middle;
+    padding-left: 20px;
 }
 
 
@@ -94,7 +95,8 @@ header .menu > ul {
 
 header .menu > ul > li{
     display: inline-block;
-    margin: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 header .menu > ul > li:hover {
@@ -120,18 +122,22 @@ header .menu:last-child {
 
 .dropdown-menu {
     position: absolute;
-    left: -20px;
+    left: -40px;
     top: 82px;
-    min-width: calc(100% + 40px);
+    min-width: calc(100% + 80px);
+    max-width: 300%;
+    font-size: 12px;
     padding: 10px 20px;
     background: #fff;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .1);
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    line-height: 18px;
 }
 
 .dropdown-menu ul {
     list-style: none;
+    padding-top: 10px;
 }
 
 .dropdown-menu ul li {
