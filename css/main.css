@@ -375,15 +375,39 @@ header div:last-child {
     padding: 20px 20px 20px 0;
 }
 
-.faq .question p {
+.faq .question .question {
     float: left;
+    width: 98%;
     font-weight: 700;
     cursor: pointer;
 }
 
-.arrow-down {
+.faq .question .arrow-down {
     float: right;
+    width: 2%;
     cursor: pointer;
+    transform: translateY(15px);
+}
+
+.faq .question .arrow-up {
+    display: none;
+    float: right;
+    width: 2%;
+    cursor: pointer;
+    transform: translateY(15px);
+}
+
+.faq .question .answer {
+    display: none;
+}
+
+.faq .question:hover .arrow-down{
+    display: none;
+}
+
+.faq .question:hover .arrow-up,
+.faq .question:hover .answer {
+    display: block;
 }
 
 /* FOOTER */
